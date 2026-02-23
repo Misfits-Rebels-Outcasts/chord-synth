@@ -32,11 +32,12 @@ Exposes `generate_wav` and `list_options` tools to any MCP-compatible agent (Cla
 {
   "mcpServers": {
     "chord-synth": {
-      "command": "node",
-      "args": ["/path/to/chord-synth/mcp-server.js"]
+      "command": "npx",
+      "args": ["-y", "chord-synth", "mcp"]
     }
   }
 }
+
 ```
 
 **Claude Code:**
