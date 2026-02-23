@@ -1,0 +1,50 @@
+{
+  "name": "chord-synth",
+  "version": "1.0.0",
+  "description": "Generate chord progression WAV files. 28 presets, 22 arp patterns, 7 instruments, slash chords, transposition. CLI + MCP server + Node.js module. Zero dependencies.",
+  "keywords": [
+    "chord", "progression", "arpeggiator", "synthesizer", "wav", "audio",
+    "midi", "music", "generator", "mcp", "model-context-protocol",
+    "ai-tools", "logic-pro", "agent-tools", "llm-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "main": "lib/synth-engine.js",
+  "bin": {
+    "chord-synth": "bin/chord-synth.js"
+  },
+  "files": [
+    "lib/",
+    "bin/",
+    "mcp-server.js",
+    "smithery.yaml",
+    "render_jobs.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/chord-synth.js",
+    "mcp": "node mcp-server.js",
+    "batch": "node bin/chord-synth.js --batch render_jobs.json",
+    "demo": "node bin/chord-synth.js --preset 'C G Am F' --bpm 120 --output demo.wav",
+    "schema": "node bin/chord-synth.js --schema",
+    "prepublishOnly": "node -e \"require('./lib/synth-engine'); console.log('Engine OK');\""
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "os": ["darwin", "linux", "win32"],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Misfits-Rebels-Outcasts/chord-synth.git"
+  },
+  "homepage": "https://github.com/Misfits-Rebels-Outcasts/chord-synth#readme",
+  "bugs": {
+    "url": "https://github.com/Misfits-Rebels-Outcasts/chord-synth/issues"
+  }
+}

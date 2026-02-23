@@ -1,0 +1,23 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config/smithery-yaml
+# chord-synth: Generate chord progression WAV files via MCP
+
+startCommand:
+  type: stdio
+  configSchema:
+    # No API keys or auth needed — chord-synth is fully local
+    type: object
+    properties:
+      outputDir:
+        type: string
+        title: "Output Directory"
+        description: "Directory where WAV files will be written. Defaults to current working directory."
+        default: "."
+    required: []
+  commandFunction: |-
+    (config) => ({
+      command: 'node',
+      args: ['mcp-server.js'],
+      env: {
+        CHORD_SYNTH_OUTPUT_DIR: config.outputDir || '.'
+      }
+    })

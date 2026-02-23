@@ -1,0 +1,122 @@
+[
+  {
+    "filename": "001_Pop_Piano_C.wav",
+    "preset": "I-V-vi-IV (Pop)",
+    "bpm": 120,
+    "pattern": 1,
+    "rate": "1/8",
+    "instrument": "piano",
+    "octaveRange": 2,
+    "drumPattern": "poprock",
+    "loops": 2
+  },
+  {
+    "filename": "002_Jazz_Alberti_Bb.wav",
+    "preset": "ii-V-I (Jazz)",
+    "bpm": 100,
+    "pattern": 17,
+    "rate": "1/8",
+    "instrument": "piano",
+    "transpose": 10,
+    "swing": 0.62,
+    "drumPattern": "swing",
+    "loops": 3
+  },
+  {
+    "filename": "003_Custom_SlashChords.wav",
+    "preset": "Dm9 | G7/B | Cmaj7 | Am7/E",
+    "beatsPerChord": 4,
+    "bpm": 92,
+    "pattern": 13,
+    "rate": "1/8T",
+    "instrument": "piano",
+    "swing": 0.6,
+    "drumPattern": "bossanova",
+    "loops": 2
+  },
+  {
+    "filename": "004_NeoSoul_Guitar.wav",
+    "preset": "Neo-Soul I",
+    "bpm": 88,
+    "pattern": 5,
+    "rate": "1/8T",
+    "instrument": "guitar",
+    "octaveRange": 2,
+    "velRandom": 10,
+    "drumPattern": "rnb",
+    "loops": 2
+  },
+  {
+    "filename": "005_Ambient_NoDrums.wav",
+    "preset": "Cmaj9 Am9 Fmaj9 Gsus4",
+    "beatsPerChord": 8,
+    "bpm": 55,
+    "pattern": 1,
+    "rate": "1/4",
+    "instrument": "piano",
+    "enableDrums": false,
+    "padVolume": 0.24,
+    "reverbMix": 0.35,
+    "loops": 2
+  },
+  {
+    "filename": "006_Blues_Swing.wav",
+    "preset": "12-Bar Blues",
+    "bpm": 108,
+    "pattern": 18,
+    "rate": "1/4",
+    "instrument": "piano",
+    "swing": 0.66,
+    "drumPattern": "swing",
+    "enablePad": false,
+    "loops": 1
+  },
+  {
+    "filename": "007_Trance_16th.wav",
+    "preset": "Trance",
+    "bpm": 140,
+    "pattern": 5,
+    "rate": "1/16",
+    "instrument": "piano",
+    "octaveRange": 3,
+    "drumPattern": "8beat",
+    "loops": 2
+  },
+  {
+    "filename": "008_Custom_Waltz.wav",
+    "preset": "Am | Dm/F | E7 | Am",
+    "beatsPerChord": 6,
+    "bpm": 75,
+    "pattern": 3,
+    "rate": "1/4",
+    "instrument": "violin",
+    "drumPattern": "waltz",
+    "padVolume": 0.16,
+    "loops": 2
+  },
+  {
+    "filename": "009_Cinematic_Violin.wav",
+    "preset": "Am | Am/G | F | Fmaj7 | Dm7 | Dm7/C | E7 | E7",
+    "beatsPerChord": 4,
+    "bpm": 60,
+    "pattern": 3,
+    "rate": "1/8",
+    "instrument": "violin",
+    "enableDrums": false,
+    "padVolume": 0.2,
+    "reverbMix": 0.32,
+    "loops": 2
+  },
+  {
+    "filename": "010_Transposed_Pop_G.wav",
+    "preset": "I-V-vi-IV (Pop)",
+    "bpm": 120,
+    "pattern": 1,
+    "rate": "1/8",
+    "instrument": "guitar",
+    "transpose": 7,
+    "octaveRange": 2,
+    "drumPattern": "acousticpop",
+    "loops": 2
+  }
+]
