@@ -8,7 +8,7 @@ Generate chord progression WAV files. Zero dependencies. Node.js only.
 
 ```bash
 # Install globally
-npm install -g "git+https://github.com/Misfits-Rebels-Outcasts/chord-synth.git"
+npm install -g chord-synth
 
 # Generate a WAV file
 chord-synth --preset "C G Am F" --bpm 120 --output pop.wav
@@ -42,7 +42,7 @@ Exposes `generate_wav` and `list_options` tools to any MCP-compatible agent (Cla
 **Claude Code:**
 ```bash
 # Install globally
-npm install -g "git+https://github.com/Misfits-Rebels-Outcasts/chord-synth.git"
+npm install -g chord-synth
 
 # Add to Claude Code (point to the installed mcp-server.js)
 claude mcp add chord-synth -- node $(npm root -g)/chord-synth/mcp-server.js
