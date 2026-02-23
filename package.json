@@ -12,6 +12,7 @@
   "main": "lib/synth-engine.js",
   "bin": {
     "chord-synth": "bin/chord-synth.js"
+    "chord-synth-mcp": "./mcp-server.js"
   },
   "files": [
     "lib/",
