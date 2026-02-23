@@ -41,7 +41,11 @@ Exposes `generate_wav` and `list_options` tools to any MCP-compatible agent (Cla
 
 **Claude Code:**
 ```bash
-claude mcp add chord-synth -- node /path/to/chord-synth/mcp-server.js
+# Install globally
+npm install -g "git+https://github.com/Misfits-Rebels-Outcasts/chord-synth.git"
+
+# Add to Claude Code (point to the installed mcp-server.js)
+claude mcp add chord-synth -- node $(npm root -g)/chord-synth/mcp-server.js
 ```
 
 Then ask Claude: *"Generate a sad violin arpeggio over Am F C G at 80 BPM"* — it will call `generate_wav` directly.
