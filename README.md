@@ -8,7 +8,7 @@ Generate chord progression WAV files. Zero dependencies. Node.js only.
 
 ```bash
 # Install globally
-npm install -g chord-synth
+npm install -g "git+https://github.com/Misfits-Rebels-Outcasts/chord-synth.git"
 
 # Generate a WAV file
 chord-synth --preset "C G Am F" --bpm 120 --output pop.wav
