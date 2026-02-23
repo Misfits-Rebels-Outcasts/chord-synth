@@ -16,7 +16,7 @@
  *     "mcpServers": {
  *       "chord-synth": {
  *         "command": "node",
- *         "args": ["/path/to/chord-synth/mcp-server.js"]
+ *         "args": ["-y", "chord-synth", "mcp"]
  *       }
  *     }
  *   }
