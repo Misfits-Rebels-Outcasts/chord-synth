@@ -49,6 +49,15 @@ claude mcp add chord-synth -- npx chord-synth --mcp
 
 Then ask Claude: *"Generate a sad violin arpeggio over Am F C G at 80 BPM"* — it will call `generate_wav` directly.
 
+
+**ChatGPT Codex:**
+```
+Prompt:
+I have a mcp tool to generate chord wav files at https://github.com/Misfits-Rebels-Outcasts/chord-synth,
+use it generate a chord progression for violin "Am Dm G C" at 128 bpm 
+```
+
+
 ## Use as Node.js Module
 
 ```javascript
